@@ -1,0 +1,24 @@
+name: oyun_ur
+description: "Ur Kraliyet Oyunu – Masa Oyunları merkez uygulamasının oyunu."
+publish_to: none
+version: 1.0.0
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  studio_core:
+    git:
+      url: https://github.com/taktemurr-ops/studio-core
+      ref: 293a3eda102647b57c23e670d800d91b48d32f0b
+  masa_motoru:
+    git:
+      url: https://github.com/taktemurr-ops/masa-motoru
+      ref: 9468a00ad94c6b7031ab101ed281c855bae06aab
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
